@@ -36,7 +36,7 @@ Set the [NTP Pool Area](http://support.ntp.org/bin/view/Servers/NTPPoolServers) 
 
 Specify the NTP servers you'd like to use. Only takes effect if you allow this role to manage NTP's configuration, by setting `ntp_manage_config` to `true`.
 
-ntp_peers:
+    ntp_peers:
       - "203.0.113.12"
       - "198.51.100.1"
 
